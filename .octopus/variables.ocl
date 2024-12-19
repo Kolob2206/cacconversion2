@@ -1,0 +1,9 @@
+variable "scoped" {
+    value "scoped val" {
+        environment = ["development"]
+    }
+}
+
+variable "unscoped" {
+    value "unscoped val" {}
+}
